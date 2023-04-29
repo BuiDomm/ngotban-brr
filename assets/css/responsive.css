@@ -1,0 +1,111 @@
+
+@media (max-width:1023px) {
+    #nav .subnav{
+        padding: 5px 12px;
+    }
+    .place-buy-btn{
+
+    }
+     .form-control{
+        padding: 15px   ;
+    }
+
+.footer-icon i {
+    font-size: 30px;
+    margin: 0 8px;
+
+}
+ .footer-list p a{
+    padding: 16px;
+    display: inline-block;
+}
+.contact-info{
+    line-height: 2;
+}
+}
+
+ /* Responsive- Mobile */
+@media (max-width:740px){
+    #header {
+        overflow: hidden;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-col-8{
+        padding-top: 8px;
+    }
+    
+    #header .mobile-menu-btn {
+     display: block;   
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #nav {
+        display:block ;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    } 
+    #nav #subnav {
+     position:initial;
+     background-color: #333;
+    }
+    #nav #subnav a{
+        color: #fff;
+        padding: 5px 42px;
+    }
+    .btn{
+        padding: 15px;
+    }
+    
+#content .places-list{
+    margin-top: 16px;
+}
+#content .member-name {
+    font-size: 20px;
+}
+ 
+    #content .member-img{
+        width: 60%;
+    }
+    #content .place-item-mb {
+        width: 100%;
+        padding-left: 16px;
+       padding-right: 16px;
+       margin-top: 16px;
+      
+   
+       }
+
+
+    #content .contact-info-mb {
+        width: 100%;
+     
+    }
+    #content .contact-pd-mb{
+        padding-top: 20px;
+    }
+    #content .form-control {
+        padding: 12px;
+    }
+
+    .modal .modal-container{
+        width: 95%;
+        min-height: 35%;
+    }
+    
+
+
+}
+
